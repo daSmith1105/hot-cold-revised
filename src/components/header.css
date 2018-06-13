@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+}
+
+.header-btn {
+    border: none;
+    padding: .5em;
+    text-transform: uppercase;
+    background-color: lightseagreen;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.6);
+    background-color: goldenrod;
+    transition: .5s;
+    color: white;
+}
+
+.how-to {
+    float: left;
+}
+
+.new-game {
+    float: right;
+}

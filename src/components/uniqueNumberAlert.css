@@ -1,0 +1,36 @@
+.modal {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70vw;
+    text-align: center;
+    background-color: white;
+    border-radius: .5em;
+    padding: 1em;
+    margin-top: 1em;
+    height: 100vh;
+}
+
+.message {
+    margin-top: 5em;
+}
+
+p {
+    font-size: 140%;
+}
+
+.close-modal {
+    margin-top: 3em;
+    border: none;
+    padding: .5em;
+    text-transform: uppercase;
+    background-color: lightseagreen;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.6);
+    background-color: goldenrod;
+    transition: .5s;
+    color: white;
+}

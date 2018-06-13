@@ -1,0 +1,33 @@
+.guess-input {
+    min-width: 10%;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.guess-input::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit-btn {
+    display: block;
+    min-width: 10%;
+    border: none;
+    padding: .3em;
+    text-transform: uppercase;
+    background-color: lightseagreen;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    font-size: 120%
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.6);
+    background-color: goldenrod;
+    transition: .5s;
+    color: white;
+}
