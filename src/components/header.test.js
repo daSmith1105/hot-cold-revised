@@ -1,7 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import Header from './header';
-import App from './App';
 
 describe('<Header/>', () => {
 
@@ -14,5 +13,5 @@ describe('<Header/>', () => {
     }; 
       shallow( <Header /> );
     });
-    
+
 });
